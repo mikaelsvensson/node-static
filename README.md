@@ -138,12 +138,3 @@ Sets response headers.
 example: `{ 'X-Hello': 'World!' }`
 
 > defaults to `{}`
-
-#### `customContentTypes` #
-
-Add/override file extension MIME type mappings. This is, for example, useful when serving HTML 5 application cache manifest files.
-
-example: `{ 'htm': 'text/html', 'manifest': 'text/cache-manifest' }`
-
-> defaults to `{}`
-
